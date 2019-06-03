@@ -1,0 +1,39 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - School",
+			"request": "launch",
+			"mainClass": "School",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Test2",
+			"request": "launch",
+			"mainClass": "Test2",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Test",
+			"request": "launch",
+			"mainClass": "Test",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - MoreLoops",
+			"request": "launch",
+			"mainClass": "MoreLoops",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Loops",
+			"request": "launch",
+			"mainClass": "Loops",
+			"projectName": "java_a15ed188"
+		}
+	]
+}
