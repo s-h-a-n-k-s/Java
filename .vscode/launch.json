@@ -2,6 +2,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "CodeLens (Launch) - Test5",
+			"request": "launch",
+			"mainClass": "Test5",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
 			"name": "CodeLens (Launch) - ConvertNumber",
 			"request": "launch",
 			"mainClass": "ConvertNumber",
