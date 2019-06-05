@@ -2,6 +2,48 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "CodeLens (Launch) - ConvertNumber",
+			"request": "launch",
+			"mainClass": "ConvertNumber",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Bank/ConvertNumber",
+			"request": "launch",
+			"mainClass": "Bank/ConvertNumber",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Bank/TestBank",
+			"request": "launch",
+			"mainClass": "Bank/TestBank",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Bank/Accounts",
+			"request": "launch",
+			"mainClass": "Bank/Accounts",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Bank/NBS",
+			"request": "launch",
+			"mainClass": "Bank/NBS",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Test4",
+			"request": "launch",
+			"mainClass": "Test4",
+			"projectName": "java_a15ed188"
+		},
+		{
+			"type": "java",
 			"name": "CodeLens (Launch) - TimesTables",
 			"request": "launch",
 			"mainClass": "TimesTables",
