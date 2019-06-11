@@ -24,3 +24,20 @@ class AccountsHR {
 		}
 	}
 }
+
+class AccountsIT {
+	public static float generatePayslip() throws AbsencesException {
+		AccountsNBS nbs = new AccountsNBS();
+		float netSalary = 2000 - nbs.tax(2000, 7);
+
+		return netSalary;
+	}
+
+	public static void main(String args[]) {
+		try {
+			generatePayslip();
+		} catch (AbsencesException e) {
+			System.out.println("Computer says no");
+		}
+	}
+}
