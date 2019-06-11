@@ -27,7 +27,7 @@ class ActionHandler implements ActionListener {
 				System.out.println("PV 0" + number);
 				this.previousValue = number;
 			} else if (this.action == null) {
-				String value = Integer.toString(number) + Integer.toString(this.previousValue);
+				String value = Integer.toString(this.previousValue) + Integer.toString(number);
 				number = Integer.parseInt(value);
 				this.previousValue = number;
 				this.screen.setText(Integer.toString(number));

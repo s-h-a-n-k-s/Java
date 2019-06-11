@@ -1,7 +1,6 @@
 package app;
 
 import java.awt.*;
-import java.awt.event.ActionListener;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -15,6 +14,8 @@ public class App {
 		keypadPanel.setLayout(layout);
 
 		TextField screen = new TextField();
+		GridLayout screenLayout = new GridLayout(1, 1);
+		screenPanel.setLayout(screenLayout);
 		screenPanel.add(screen);
 		ActionHandler listener = new ActionHandler(screen);
 
