@@ -22,13 +22,17 @@ class ActionHandler implements ActionListener {
 			System.out.println("NUMERIC");
 			int number = Integer.parseInt(pressedButton.getLabel());
 			this.screen.setText(Integer.toString(number));
-
+			
 			if (this.previousValue == 0) {
 				System.out.println("PV 0" + number);
 				this.previousValue = number;
-			} else {
-				System.out.println("ELSE PV 0 " + number);
+			} else if (this.action == null) {
+				String value = Integer.toString(number) + Integer.toString(this.previousValue);
+				number = Integer.parseInt(value);
+				this.previousValue = number;
+				this.screen.setText(Integer.toString(number));
 			}
+
 
 		} else {
 			int result = 0;
