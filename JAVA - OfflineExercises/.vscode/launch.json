@@ -1,0 +1,11 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - OfflineExercises",
+			"request": "launch",
+			"mainClass": "code.OfflineExercises",
+			"projectName": "OfflineExercises"
+		}
+	]
+}
